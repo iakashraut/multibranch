@@ -1,14 +1,14 @@
 pipeline {
     agent {label
     {label'built-in'
-    customWorkspace'/mnt/project3/'
+    customWorkspace'/mnt/project4/'
     }
     }
 
     stages {
         stage('Hello') {
             steps {
-                sh'touch file2'
+                sh'touch file3'
             }
         }
     }
