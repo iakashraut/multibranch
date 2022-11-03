@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh'touch file3'
+                sh'yum install httpd -y'
             }
         }
     }
