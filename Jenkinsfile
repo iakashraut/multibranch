@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh'touch file2'
+                sh'touch file3'
             }
         }
     }
