@@ -1,6 +1,6 @@
 pipeline {
     agent {label
-    {label'built-in'
+    {label'worker'
     customWorkspace'/mnt/project4/'
     }
     }
